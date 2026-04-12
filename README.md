@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+RPG IBRC
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um jogo de RPG educativo inspirado em temáticas bíblicas, desenvolvido em React.js.O jogador cria um personagem, escolhe uma classe, resolve enigmas e enfrenta inimigos usando habilidades e tesouros adquiridos.
 
-## Available Scripts
+🎮 Demonstração
 
-In the project directory, you can run:
+⚔️ Funcionalidades
 
-### `npm start`
+Criação e personalização de personagem (nome e classe)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sistema de atributos: Ataque, Defesa, Sabedoria, Fé e HP
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Distribuição de pontos de habilidade ao subir de nível
 
-### `npm test`
+Combate contra inimigos com ataques normais e uso de tesouros
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sistema de progressão: XP, níveis e habilidades
 
-### `npm run build`
+Inventário com tesouros que podem ser usados em combate
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Capítulos com narrativa interativa e escolhas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🧩 Estrutura do Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+rpg-ibrc/
+│
+├─ src/
+│  ├─ components/
+│  │  ├─ Capitulo1.jsx
+│  │  ├─ Capitulo2.jsx
+│  │  └─ Capitulo3.jsx
+│  │
+│  ├─ hooks/
+│  │  └─ usePlayerProgress.js
+│  │
+│  ├─ css/
+│  │  ├─ Capitulo2.css
+│  │  └─ App.css
+│  │
+│  ├─ img/
+│  │  └─ ícones e imagens do jogo (ex: demo-game.gif)
+│  │
+│  └─ App.jsx
+│
+├─ package.json
+└─ README.md
 
-### `npm run eject`
+🚀 Como Rodar
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone o repositório:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/CoutinhoGustav/GAVOP.git
+cd GAVOP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instale as dependências:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+Inicie o servidor de desenvolvimento:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Abra o navegador em http://localhost:3000
 
-### Code Splitting
+🎨 Tecnologias Usadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+React.js
 
-### Analyzing the Bundle Size
+CSS (para estilização dos capítulos e combates)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Hooks personalizados (usePlayerProgress) para gerenciar atributos e progressão do jogador
 
-### Making a Progressive Web App
+📜 Como Jogar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Escolha seu nome e classe.
 
-### Advanced Configuration
+Resolva enigmas no vilarejo para ganhar tesouros.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Enfrente inimigos nos capítulos.
 
-### Deployment
+Use ataques e tesouros estrategicamente para derrotar os inimigos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Suba de nível e distribua pontos de habilidade.
 
-### `npm run build` fails to minify
+Avance pelos capítulos até completar o jogo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🖼 Capturas de Tela
+
+📝 Observações
+
+O jogo ainda está em desenvolvimento e novos capítulos e inimigos serão adicionados.
+
+Feedbacks e contribuições são bem-vindos!
+
+📌 Autor
+
+Gustavo CoutinhoIBRC - Desenvolvimento de jogos educativos em React
+

@@ -1,0 +1,171 @@
+/* ===== Intro ===== */
+.intro {
+  padding: 30px;
+  background-color: #fff3e6;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  color: #6a1b9a;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.intro button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+}
+
+.intro button:hover {
+  background-color: #fb8c00;
+}
+
+/* ===== CharacterCreation ===== */
+.character-creation {
+  padding: 30px;
+  background-color: #e8f5e9;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.character-creation h2 {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.character-creation form label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.character-creation input,
+.character-creation select {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.character-creation button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+}
+
+.character-creation button:hover {
+  background-color: #43a047;
+}
+
+/* ===== Transition ===== */
+.transition {
+  padding: 50px;
+  background-color: #e1f5fe;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.transition h1 {
+  font-size: 2.5rem;
+  color: #0277bd;
+  margin-bottom: 15px;
+}
+
+.transition p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* ===== StoryChapter ===== */
+.story-chapter {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(to bottom, #fff8e7, #ffe1c6);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.story-chapter h2 {
+  text-align: center;
+  color: #6b3e26;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.story-chapter p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+.story-chapter .next-hint {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 10px;
+}
+
+.puzzle {
+  padding: 20px;
+  background-color: #f3e5f5;
+  border-radius: 15px;
+  border: 2px solid #ce93d8;
+  margin-top: 20px;
+}
+
+.puzzle h3 {
+  font-size: 1.5rem;
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+.puzzle .options button {
+  display: block;
+  margin: 5px auto;
+  padding: 8px 15px;
+  font-size: 1rem;
+  background-color: #ba68c8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.puzzle .options button:hover {
+  background-color: #9c27b0;
+}
+
+.feedback {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #d32f2f;
+}
+
+/* ===== Responsividade ===== */
+@media screen and (max-width: 768px) {
+  .intro, .character-creation, .transition, .story-chapter {
+    padding: 20px;
+  }
+
+  .character-creation input,
+  .character-creation select {
+    width: 100%;
+  }
+
+  .puzzle .options button {
+    width: 100%;
+  }
+}
